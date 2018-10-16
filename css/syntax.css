@@ -1,9 +1,12 @@
-h2{
-	font-family: "Yu Gothic";
-	font-weight: normal;
+#header h1{
+	color: chocolate;
 }
 
-p{
-	font-family: "Yu Gothic";
-	font-weight: 700;
+#header h2{
+	color: #566789;
+}
+
+#header{
+	/*background: url("../assets/medium_ilarbi.jpg");*/
+	background-color: antiquewhite;
 }
