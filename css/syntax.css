@@ -1,15 +1,3 @@
-span[class~="deck"]{
-	color:purple;
-}
-
-div[id]{
-	background-color: grey
-}
-/*href ends in pdf*/
-a[href$="pdf"]{
-	color: green;
-}
-
-a[href^="www"]{
-	color:pink;
+a:hover{
+	color:red;
 }
