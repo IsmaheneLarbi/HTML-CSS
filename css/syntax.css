@@ -1,9 +1,9 @@
-article h2, article p{
-	font-size: 24px;
-	font-family: arial, helvetica, serif;
-	text-decoration: underline;
+h2{
+	font-family: "Yu Gothic";
+	font-weight: normal;
 }
 
-a{
-	text-decoration: inherit; 
+p{
+	font-family: "Yu Gothic";
+	font-weight: 700;
 }
