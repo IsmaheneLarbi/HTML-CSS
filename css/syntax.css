@@ -1,12 +1,11 @@
-#header h1{
-	color: chocolate;
+a{
+	color:crimson;
+	text-decoration: none;
+	font-weight: bold;
 }
 
-#header h2{
-	color: #566789;
-}
-
-#header{
-	/*background: url("../assets/medium_ilarbi.jpg");*/
-	background-color: antiquewhite;
+a:hover{
+	color:darkmagenta;
+	text-decoration: underline;
+	background-color: aquamarine;
 }
