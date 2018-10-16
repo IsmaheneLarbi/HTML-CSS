@@ -1,3 +1,9 @@
-*{
-	color: blue;
+article h2, article p{
+	font-size: 24px;
+	font-family: arial, helvetica, serif;
+	text-decoration: underline;
+}
+
+a{
+	text-decoration: inherit; 
 }
