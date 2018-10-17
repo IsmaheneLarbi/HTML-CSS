@@ -1,49 +1,50 @@
-body{
-	background-color: #eee;
+.block{
+	margin: 30px;
+	border:1px solid #000;
+	border-radius: 10px;
+	width:800px;
+	padding: 15px;
 }
 
-#main-content{
-	background-color: #fff;
-	width: 1200px;
-	margin: 0 auto;
-	height: 100%;
-	padding: 20px;
+.inline{
+	margin: 12px;
+	padding: 15px;
+	border: 1px solid #000;
+	border-radius: 40px;
+	width: 800px;
+	height: 40px;
+	display:block;
 }
 
-.box{
-	margin: 20px;
-	padding: 20px;
-	float:left;
+.image{
+	margin: 15px;
+	padding: 15px;
+	width: 240px;
+	height: 240px;
+	border: 1px solid #000;
+	border-radius: 150px;
+	background:url("../assets/medium_ilarbi.jpg");
+	background-position: top-right;
+	display: inline-table;
 }
 
-.dashed{
-	border: 1px blue dashed;
+.image:hover{
+	background-image: url("../assets/kanzaki.jpeg"); 
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: 100%;
 }
 
-.dotted{
-	border: 1px blue dotted;
+.dashboard{
+	border:1px solid #000;
+	border-radius: 20px;
+	background-image: url("https://cdn.intra.42.fr/coalition/cover/4/order_background.jpg");
+	background-position: center;
 }
 
-.double{
-	border: 14px blue double;
-}
-
-.groove{
-	border: 14px blue groove;
-}
-
-.inset{
-	border: 14px blue inset;
-}
-
-.outset{
-	border: 14px blue outset;
-}
-
-.ridge{
-	border: 14px blue ridge;
-}
-
-.solid{
-	border: 1px blue solid;
+.info{
+	margin: 30px;
+	font-size: 24px;
+	color: #fff;
+	display: inline-flex;
 }
